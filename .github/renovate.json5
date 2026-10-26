@@ -3,6 +3,7 @@
   schedule: ['before 4am on Saturday'],
   labels: ['deps'],
   minimumReleaseAge: '5 days',
+  separateMajorMinor: false,
   lockFileMaintenance: {
     enabled: true,
     automerge: true,
